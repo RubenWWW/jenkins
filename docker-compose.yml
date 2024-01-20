@@ -1,8 +1,8 @@
 version: '3.1'
 services:
   django-tutorial:
-    container_name: django-tutorial2
-    image: dparrales/django_python  
+    container_name: jenkins
+    image: django:latest
     restart: always
     environment:
       ALLOWED_HOSTS: "*"
